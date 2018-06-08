@@ -50,7 +50,6 @@ JSON files are quite easy to parse and overwrite, looked up an example from the 
 Looking into file manipulation that isn't JSON, seems like more of what I described in the previous log.
 
 Diving into that right now.
-\*/
 
 ### URL references:
 
