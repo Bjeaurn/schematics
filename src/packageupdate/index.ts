@@ -9,9 +9,6 @@ export function packageupdate(options: any): Rule {
     // Prevents compiler whine about unused options.
     if (options) {
     }
-    _context.logger.debug(
-      'Checking and adding missing scripts to package.json'
-    );
     tree = addScriptPackageJson(tree, 'test:ci', 'bliep bloep this was added automatically');
     addImportStatement(tree, "src/app/app.component.ts", "test", "my-test");
     addImportStatement(tree, "src/app/app.component.ts", "test", "@angular/core");
