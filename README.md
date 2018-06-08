@@ -51,6 +51,16 @@ Looking into file manipulation that isn't JSON, seems like more of what I descri
 
 Diving into that right now.
 
+
+#### Log 20180608 1138
+
+Generated a new Angular app, `ng new ng-test`. Used `npm link ../schematics/` to link my schematics. 
+
+Now I could run `schematics schematics:packageupdate` to update my `package.json`.
+
+Back to other file manipulation.
+
+
 ### URL references:
 
 - https://github.com/angular/devkit/blob/master/packages/angular_devkit/schematics_cli/bin/schematics.ts
