@@ -60,6 +60,11 @@ Now I could run `schematics schematics:packageupdate` to update my `package.json
 
 Back to other file manipulation.
 
+#### Log 20180608 1550
+
+Finished for now, got some additional file manipulation going by looking at other repositories. Copied a few utils so I could implement my own `addImportStatement` function which works very nicely. 
+
+Main thing is: JSON manipulation is quite easy, so files like `package.json` or `angular.json` are quite easy to test and update. It gets a bit more complex when you want to manipulate other files.
 
 ### URL references:
 
