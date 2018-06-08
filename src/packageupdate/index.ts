@@ -10,8 +10,8 @@ export function packageupdate(options: any): Rule {
     if (options) {
     }
     tree = addScriptPackageJson(tree, 'test:ci', 'bliep bloep this was added automatically');
-    addImportStatement(tree, "src/app/app.component.ts", "test", "my-test");
-    addImportStatement(tree, "src/app/app.component.ts", "test", "@angular/core");
+    addImportStatement(tree, 'src/app/app.component.ts', 'test', 'my-test');
+    addImportStatement(tree, 'src/app/app.component.ts', 'test', '@angular/core');
     return tree;
   };
 }
