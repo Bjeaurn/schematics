@@ -14,7 +14,6 @@
     "noImplicitThis": true,
     "noUnusedParameters": true,
     "noUnusedLocals": true,
-    "outDir": "./dist",
     "rootDir": "src/",
     "skipDefaultLibCheck": true,
     "skipLibCheck": true,
